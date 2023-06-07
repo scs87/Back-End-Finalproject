@@ -8,4 +8,6 @@ app.use(cors({
     origin: ['http://localhost3000']
 }))
 
+app.use("/api", routes)
+
 module.exports = app;
