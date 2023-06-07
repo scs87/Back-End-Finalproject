@@ -1,9 +1,9 @@
 const {model, Schema} = require("mongoose");
 
 
-const imgSchema = newSchema({
+const imgSchema = new Schema({
     name:{type:String, required:true},
-    image:string
+    image: String
 })
 
 
