@@ -3,11 +3,11 @@ const {model, Schema} = require("mongoose");
 
 const imgSchema = new Schema({
     name:{type:String, required:true},
-    image: String
+    imageurl: String
 })
 
 
-const imgModel = model("img", imgSchema)
+const imgModel = model("Img", imgSchema)
 
 
 module.exports = imgModel
