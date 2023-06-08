@@ -2,7 +2,7 @@
   "name": "server",
   "version": "1.0.0",
   "description": "Back end final project for Assembler School",
-  "main": "index.js",
+  "main": "server/index.js",
   "scripts": {
     "dev": "nodemon server/index.js",
     "start": "node server/index.js"
